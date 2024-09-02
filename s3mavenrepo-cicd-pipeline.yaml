@@ -169,6 +169,7 @@ Resources:
                   - iam:PassRole
                 Resource: "*"
                 Effect: Allow
+
 Outputs:
   CodePipelineArtifactBucket:
     Value: !Ref ArtifactBucket
