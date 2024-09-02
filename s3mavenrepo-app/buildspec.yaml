@@ -10,6 +10,7 @@ phases:
       - yum install pip -y
       - pip install awscli --upgrade --user
 
+      
   build:
     commands:
       - mvn clean package deploy
